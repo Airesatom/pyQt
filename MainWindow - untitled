@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>569</width>
+    <height>482</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTabWidget" name="tabWidget">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>30</y>
+      <width>521</width>
+      <height>281</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>1</number>
+    </property>
+    <widget class="QWidget" name="tab">
+     <attribute name="title">
+      <string>物资基本信息录入</string>
+     </attribute>
+    </widget>
+    <widget class="QWidget" name="tab_2">
+     <attribute name="title">
+      <string>物资基本信息查询</string>
+     </attribute>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>569</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu">
+    <property name="title">
+     <string>物资基本信息</string>
+    </property>
+    <addaction name="actionxinxiluru"/>
+    <addaction name="actionxinxichaxun"/>
+   </widget>
+   <widget class="QMenu" name="menu_2">
+    <property name="title">
+     <string>入库管理</string>
+    </property>
+    <addaction name="actiondenjichaxun"/>
+    <addaction name="actionrukuchaxun"/>
+   </widget>
+   <widget class="QMenu" name="menu_3">
+    <property name="title">
+     <string>出库管理</string>
+    </property>
+    <addaction name="actionchukuluru"/>
+   </widget>
+   <widget class="QMenu" name="menu_4">
+    <property name="title">
+     <string>库存查询</string>
+    </property>
+    <addaction name="actionkucunchaxun"/>
+   </widget>
+   <addaction name="menu"/>
+   <addaction name="menu_2"/>
+   <addaction name="menu_3"/>
+   <addaction name="menu_4"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionxinxiluru">
+   <property name="text">
+    <string>xinxiluru </string>
+   </property>
+  </action>
+  <action name="actionxinxichaxun">
+   <property name="text">
+    <string>xinxichaxun </string>
+   </property>
+  </action>
+  <action name="actiondenjichaxun">
+   <property name="text">
+    <string>rukuluru</string>
+   </property>
+  </action>
+  <action name="actionrukuchaxun">
+   <property name="text">
+    <string>rukuchaxun</string>
+   </property>
+  </action>
+  <action name="actionchukuluru">
+   <property name="text">
+    <string>chukuluru</string>
+   </property>
+  </action>
+  <action name="actionkucunchaxun">
+   <property name="text">
+    <string>kucunchaxun</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
